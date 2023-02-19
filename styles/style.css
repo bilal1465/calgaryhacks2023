@@ -1,0 +1,29 @@
+.card-title{
+    margin-left: 25%;
+    color: red;
+    align-self: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.courseTitle {
+    color: green;
+    font-size: larger;
+
+}
+.btn {
+    margin-left: 49.2%;
+
+}
+.card{
+    padding: 30px;
+    margin-right:10% ;
+    background-color: grey;
+    justify-content: flex-start;
+}
+.card-img-top{
+    border-radius: 90px;
+
+}
+.card-group{
+    display: flex;
+}
