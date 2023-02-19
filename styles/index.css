@@ -138,7 +138,18 @@ p {
     margin: 20px 10px;
 }
 
-/* card styling */
+/* Buddies page styling */
+#buddies {
+    padding: 100px;
+    background-color: #E1D7C6;
+}
+
+#outer-card {
+    margin-top:2%;
+    padding: 20px;
+}
+
+/* card styling 
 .card-title{
     margin-left: 25%;
     color: red;
@@ -176,3 +187,4 @@ p {
 #card-name {
     color: black;
 }
+*/
