@@ -168,3 +168,11 @@ p {
 .card-group{
     display: flex;
 }
+
+#example {
+    margin-top: 50px;
+}
+
+#card-name {
+    color: black;
+}
