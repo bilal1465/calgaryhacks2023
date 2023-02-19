@@ -139,7 +139,7 @@ p {
 }
 
 /* Buddies page styling */
-#buddies {
+#buddies, #tutors {
     padding: 100px;
     background-color: #E1D7C6;
 }
@@ -149,42 +149,11 @@ p {
     padding: 20px;
 }
 
-/* card styling 
-.card-title{
-    margin-left: 25%;
-    color: red;
-    align-self: center;
-    font-weight: bolder;
-    font-size: xx-large;
-}
-.courseTitle {
-    color: green;
-    font-size: larger;
-
-}
-.btn {
-    margin-left: 49.2%;
-
-}
-.card{
-    padding: 30px;
-    margin-right:10% ;
-    background-color: grey;
-    justify-content: flex-start;
-}
-.card-img-top{
-    border-radius: 90px;
-
-}
-.card-group{
-    display: flex;
+/* Tutor page styling*/
+#tutor-img {
+    border-radius: 100%;
 }
 
-#example {
-    margin-top: 50px;
+#outer-card-tutor {
+    margin: 1%;
 }
-
-#card-name {
-    color: black;
-}
-*/
