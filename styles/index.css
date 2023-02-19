@@ -14,14 +14,14 @@ body {
 h1 {
     font-family: "Montserrat";
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 1.5;
 }
 
 h2 {
     font-family: "Montserrat";
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5srem;
     line-height: 1.5;
 }
 
@@ -136,4 +136,35 @@ p {
 
 #social-icon {
     margin: 20px 10px;
+}
+
+/* card styling */
+.card-title{
+    margin-left: 25%;
+    color: red;
+    align-self: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.courseTitle {
+    color: green;
+    font-size: larger;
+
+}
+.btn {
+    margin-left: 49.2%;
+
+}
+.card{
+    padding: 30px;
+    margin-right:10% ;
+    background-color: grey;
+    justify-content: flex-start;
+}
+.card-img-top{
+    border-radius: 90px;
+
+}
+.card-group{
+    display: flex;
 }
