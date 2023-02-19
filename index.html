@@ -4,20 +4,127 @@
     <meta charset="utf-8">
     <title>Campus Buddies</title>
 
+    <link rel="stylesheet" href="styles/index.css">
+
+    <!--CDN-->
     <!-- Google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
     <!-- fontawesome -->
-    <script src="https://kit.fontawesome.com/2fcb7a059a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e67be2cbb4.js" crossorigin="anonymous"></script>
 
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <section id="title">
+        <div class="container-fluid" id="container-fluid">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+                <a class="navbar-brand" id="navbar-brand" href="">campus buddies</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="./index.html"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./pages/student.html"> Learn </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""> Tutor </a>
+                    </li>    
+                </ul>
+                </div>
+            </nav>
+
+            <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+            <!-- Title -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6" id="slogan-buttons">
+                    <h1>When you're stuck, a buddy's got your back. Start passing today.</h1>
+                    <button type="button" class="btn btn-dark btn-lg start-button" id="start-button"><i class="fa-solid fa-chalkboard-user" id="btn-icon"></i> Learn </button>
+                    <button type="button" class="btn btn-outline-light btn-lg start-button" id="start-button"><i class="fa-solid fa-person-chalkboard" id="btn-icon"></i> Tutor </button>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <img class="icon-image" src="assets/students-studying.svg" alt="students-studying-tutoring">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <!-- Features -->
+
+    <section id="features">
+        <div class="row">
+        <div class="feature-box col-lg-4 col-md-12">
+            <i class="fa-sharp fa-solid fa-circle-check fa-4x feature-icon"></i>
+            <h3>Easy to find buddies.</h3>
+            <p>Studying alone is like eating a whole pizza by yourself. Sure, it's possible, but it's a lot more fun to share with a buddy.</p>
+        </div>
+        <div class="feature-box col-lg-4 col-md-12">
+            <i class="fa-solid fa-bullseye fa-4x feature-icon"></i>
+            <h3>Elite Tutoring</h3>
+            <p>Our tutors are experts in their fields, knowledgeable, and patient... just don't ask them how to center a div.</p>
+        </div>
+        <div class="feature-box col-lg-4 col-md-12">
+            <i class="fa-regular fa-thumbs-up fa-4x feature-icon"></i>
+            <h3>Guaranteed to work.</h3>
+            <p>Our site is like a magic wand, but instead of turning pumpkins into carriages, it turns your fear of proof writing into an enjoyable activity.</p>
+        </div>
+        </div>
+    </section>
+    <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
     
+    <!-- Testimonials with carousel-->
+
+    <section id="testimonials">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2>I can't believe how much Study Buddy has helped me. I actually understand math now... well, most of the time. Anyway, highly recommend.</h2>
+                <img class="testimonial-image" src="assets/user2.jpeg" alt="user-profile">
+                <em>Mike, CPSC Student</em>
+            </div>
+            <div class="carousel-item">
+                <h2 class="testimonial-text">Thanks to Study Buddy, I went from a D to a B+ in my calculus class. Now I only cry once a week instead of every day.</h2>
+                <img class="testimonial-image" src="assets/user3.jpeg" alt="user-profile">
+                <em>Sarah, SEng Student</em>
+            </div>
+            <div class="carousel-item">
+                <h2 class="testimonial-text">I don't know what kind of dark magic Study Buddy uses, but it's working. I aced my midterm after using their site. 10/10 would recommend.</h2>
+                <img class="testimonial-image" src="assets/user1.jpeg" alt="user-profile">
+                <em>Bob, SEng Student</em>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </section>
+    
+    <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!-- Footer -->
+
+    <footer id="footer">
+        <p>© Copyright campus buddies</p>
+        <i class="fa-brands fa-discord" id="social-icon"></i>
+        <i class="fa-solid fa-envelope" id="social-icon"></i>
+    </footer>
+
 </body>
 </html>
