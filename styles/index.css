@@ -7,6 +7,10 @@ body {
     color: #fff;
 }
 
+#website-logo {
+    width: 20%;
+}
+
 #container-fluid {
     padding:  3% 15%;
 }
